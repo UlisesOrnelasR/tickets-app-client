@@ -95,7 +95,7 @@ const CreateTicketPage = () => {
         </div>
         <button
           type="submit"
-          className="w-full bg-black text-white rounded-full py-3 px-5"
+          className="w-full bg-black  text-white rounded-full py-3 px-5"
         >
           Crear ticket
         </button>

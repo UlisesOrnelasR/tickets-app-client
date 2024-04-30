@@ -54,7 +54,7 @@ const HomeTickets = () => {
           <h1 className="text-2xl font-medium">Tickets</h1>
           <Link
             to="/tickets/create"
-            className="bg-gray-100 py-2 px-4 rounded-md"
+            className="bg-gray-100 hover:bg-gray-200 py-2 px-4 rounded-md"
           >
             Crear ticket
           </Link>

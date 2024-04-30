@@ -54,7 +54,7 @@ const LoginPage = () => {
           id="email"
           type="text"
           className="w-full border border-gray-500/30 bg-transparent py-3 px-5 rounded-full outline-none placeholder:text-gray-400"
-          placeholder="tucorreo@example.com"
+          placeholder="ornelas@example.com"
           autoComplete="off"
           value={email}
           onChange={(e) => setEmail(e.target.value)}

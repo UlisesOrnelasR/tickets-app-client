@@ -70,7 +70,7 @@ const RegisterPage = () => {
           id='name'
           type='text'
           className='w-full border border-gray-500/30 bg-transparent py-3 px-5 rounded-full outline-none placeholder:text-gray-400'
-          placeholder='Jorge Luis'
+          placeholder='Ulises Fidel'
           autoComplete='off'
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -87,7 +87,7 @@ const RegisterPage = () => {
           id='lastName'
           type='text'
           className='w-full border border-gray-500/30 bg-transparent py-3 px-5 rounded-full outline-none placeholder:text-gray-400'
-          placeholder='Trejo Payan'
+          placeholder='Ornelas Rodriguez'
           autoComplete='off'
           value={lastName}
           onChange={(e) => setLastName(e.target.value)}
@@ -104,7 +104,7 @@ const RegisterPage = () => {
           id='email'
           type='text'
           className='w-full border border-gray-500/30 bg-transparent py-3 px-5 rounded-full outline-none placeholder:text-gray-400'
-          placeholder='tucorreo@example.com'
+          placeholder='ornelas@example.com'
           autoComplete='off'
           value={email}
           onChange={(e) => setEmail(e.target.value)}

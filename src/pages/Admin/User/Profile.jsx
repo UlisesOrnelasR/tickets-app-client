@@ -24,6 +24,7 @@ const ProfilePage = () => {
     if (file.size > 3000000) {
       return toast.error("La imagen no debe pesar más de 3MB");
     }
+    console.log(file);
 
     uploadAvatar({
       id: auth._id,
