@@ -18,12 +18,13 @@ const ProfilePage = () => {
       file.type !== "image/vs+xml" &&
       file.type !== "image/webp"
     ) {
-      return toast.error("Imagen no valida");
+      return toast.error("Imagen no válida");
     }
 
     if (file.size > 3000000) {
       return toast.error("La imagen no debe pesar más de 3MB");
     }
+
     console.log(file);
 
     uploadAvatar({
@@ -73,7 +74,12 @@ const ProfilePage = () => {
       <section className="lg:basis-4/5">
         <h3 className="text-xl font-bold mb-5">INFORMACIÓN DEL USUARIO</h3>
         <form>
-          <input type="file" id="avatar" className="ml-4 appearance-none" />
+          <input
+            onChange={handlerAvatar}
+            type="file"
+            id="avatar"
+            className="ml-4 appearance-none"
+          />
         </form>
       </section>
     </div>
